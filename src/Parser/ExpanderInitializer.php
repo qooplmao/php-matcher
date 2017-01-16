@@ -29,7 +29,11 @@ final class ExpanderInitializer
         "contains" => "Coduo\\PHPMatcher\\Matcher\\Pattern\\Expander\\Contains",
         "matchRegex" => "Coduo\\PHPMatcher\\Matcher\\Pattern\\Expander\\MatchRegex",
 
-        "oneOf" => "Coduo\\PHPMatcher\\Matcher\\Pattern\\Expander\\OneOf"
+        "oneOf" => "Coduo\\PHPMatcher\\Matcher\\Pattern\\Expander\\OneOf",
+
+        "length" => "Coduo\\PHPMatcher\\Matcher\\Pattern\\Expander\\Length",
+        "maxLength" => "Coduo\\PHPMatcher\\Matcher\\Pattern\\Expander\\MaxLength",
+        "minLength" => "Coduo\\PHPMatcher\\Matcher\\Pattern\\Expander\\MinLength",
     );
 
     /**
